@@ -18,7 +18,7 @@
       "redirect": "/.auth/logout"
     }
   ]
-  },
+  ,
   "auth": {
     "identityProviders": {
       "azureActiveDirectory": {
