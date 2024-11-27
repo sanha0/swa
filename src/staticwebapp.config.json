@@ -23,5 +23,11 @@
             "statusCode": 302,
             "redirect": "/.auth/login/aad"
         }
-    }
+    },
+    "networking": {
+    "allowedIpRanges": [
+       "153.210.58.41/32",
+      "AzureFrontDoor.Backend" ]
+  }
+
 }
