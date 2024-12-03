@@ -22,6 +22,10 @@
         "401": {
             "statusCode": 302,
             "redirect": "/.auth/login/aad"
+        },
+        "403": {
+            "statusCode": 302,
+            "redirect": "afd-k344-auth-ade7hudyc8d9h0hq.z03.azurefd.net"
         }
     },
     "networking": {
