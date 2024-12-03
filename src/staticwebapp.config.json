@@ -23,7 +23,7 @@
             "statusCode": 302,
             "redirect": "/.auth/login/aad"
         },
-        "200": {
+        "304": {
             "statusCode": 302,
             "redirect": "/hoge"
         }
