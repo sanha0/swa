@@ -22,10 +22,6 @@
         "401": {
             "statusCode": 302,
             "redirect": "/.auth/login/aad"
-        },
-        "304": {
-            "statusCode": 302,
-            "redirect": "/hoge"
         }
     },
     "networking": {
