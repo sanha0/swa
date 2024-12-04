@@ -16,6 +16,11 @@
             "allowedRoles": [
                 "authenticated"
             ]
+        },
+        {
+      "route": "/external/",
+      "redirect": "afd-k344-auth-ade7hudyc8d9h0hq.z03.azurefd.net",
+      "statusCode": 301
         }
     ],
     "responseOverrides": {
