@@ -1,8 +1,8 @@
 {
   "responseOverrides": {
-        "404": {
+        "403": {
             "statusCode": 302,
-            "redirect": "https://www.bing.com"
+            "redirect": "https://www.google.com/"
         }
     },
   "platform": {
