@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/*",
-      "redirect": "https://google.com",
+      "redirect": "https://www.bing.com",
       "statusCode": 301
     }
   ],
