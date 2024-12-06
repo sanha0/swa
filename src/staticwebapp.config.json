@@ -1,38 +1,11 @@
 {
-    "auth": {
-        "identityProviders": {
-            "azureActiveDirectory": {
-                "registration": {
-                    "openIdIssuer": "https://login.microsoftonline.com/dfe7c40e-2279-4225-b938-4011c02c8d5a/v2.0",
-                    "clientIdSettingName": "AZURE_CLIENT_ID",
-                    "clientSecretSettingName": "AZURE_CLIENT_SECRET"
-                }
-            }
-        }
-    },
-    "routes": [
-        {
-            "route": "/*",
-            "allowedRoles": [
-                "authenticated"
-            ]
-        },
-        {
-      "route": "/external/",
-      "redirect": "https://afd-k344-auth-ade7hudyc8d9h0hq.z03.azurefd.net",
+  "routes": [
+    {
+      "route": "/*",
+      "redirect": "https://google.com",
       "statusCode": 301
-        }
-    ],
-    "responseOverrides": {
-        "401": {
-            "statusCode": 302,
-            "redirect": "/.auth/login/aad"
-        }
-    },
-    "networking": {
-    "allowedIpRanges": [
-       "153.210.58.41/32",
-      "AzureFrontDoor.Backend" ]
+    }
+  ],
+  "platform": {
   }
-
 }
