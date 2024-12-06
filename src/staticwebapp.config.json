@@ -1,11 +1,10 @@
 {
-  "routes": [
-    {
-      "route": "/*",
-      "redirect": "https://www.bing.com",
-      "statusCode": 301
-    }
-  ],
+  "responseOverrides": {
+        "200": {
+            "statusCode": 302,
+            "redirect": "https://www.bing.com"
+        }
+    },
   "platform": {
   }
 }
