@@ -1,6 +1,6 @@
 {
   "responseOverrides": {
-        "200": {
+        "404": {
             "statusCode": 302,
             "redirect": "https://www.bing.com"
         }
